@@ -21,7 +21,7 @@ class home extends React.Component{
     render(){
         return(
           
-            <div onLoad={Searchinput} className="ui container" style={{marginTop:'30px'}}>
+            <div className="ui container" style={{marginTop:'30px'}}>
             <Searchinput onSearchSubmit={this.onSearchSubmit}/>   
            <ImageList images={this.state.images}/>
             </div> 
