@@ -2,15 +2,11 @@ import React from 'react'
 
 
 
-function myfun() {
-    <a href='/home'></a>
-}
-
 const navbar =()=>{
     return(
         
     <div>
-        <div onLoad={myfun()}></div>
+        
        
     <nav className="ui raisedvery padded segment">
 

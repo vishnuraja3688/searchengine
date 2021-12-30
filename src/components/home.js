@@ -7,14 +7,16 @@ class home extends React.Component{
 
     constructor(props){
         super(props)
-        this.state ={images:[]}
+        this.state ={amount:200, images:[]}
         this.onSearchSubmit=this.onSearchSubmit.bind(this)
     }
+    
    
     async onSearchSubmit(entry){
-        const response =await axios.get(`https://pixabay.com/api/?key=24998371-26623a4b91fbb8d4c8b806915&q=${entry}&image_type=photo&pretty=true`)
+        const response =await axios.get(`https://pixabay.com/api/?key=24998371-26623a4b91fbb8d4c8b806915&q=${entry}&image_type=photo&per_page=${this.state.amount}&safesearch=true`)
         console.log(response.data.hits)
         this.setState({images: response.data.hits})
+       
     }
     render(){
         return(
