@@ -11,10 +11,11 @@ function App(){
         return(
             
             <BrowserRouter>
-            <div onLoad={Home} className="App">
+            <div className="App">
             <Navbar />
             <Routes>
-                <Route path='/home' element={<Home/>}/>
+                <Route exact path='/' element={<Home/>}/>
+                <Route exact path='/home' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 </Routes>
