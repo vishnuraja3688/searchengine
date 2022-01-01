@@ -12,7 +12,8 @@ class Searchinput extends React.Component{
     }
     render(){
         return(
-            <div className="ui segment">
+             
+            <div className="ui red segment,ui raised segment,ui stacked segment,ui mini segment">
                 <form action="" onSubmit={this.onFormSubmit} className="ui form">
                     <div className="field">
                         <div className="ui massive icon input">
@@ -25,6 +26,8 @@ class Searchinput extends React.Component{
                     </div>
                 </form>
             </div>
+           
+
         )
     }
 }
