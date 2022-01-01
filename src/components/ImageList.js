@@ -6,7 +6,8 @@ const ImageList =(props)=>{
 
 const images = props.images.map((images)=>
 
-    {return <a href={images.largeImageURL} target="_blank"> <img className="gallary" key={images.id} src={images.webformatURL} alt="images"/></a>})
+    {return <a href={images.largeImageURL} target="_blank"><div className="gallary"> <img 
+     key={images.id} src={images.webformatURL} alt="images"/> </div>   </a>})
 
 return(
     <div>{images}</div>
