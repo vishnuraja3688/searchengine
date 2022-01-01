@@ -9,11 +9,13 @@ const navbar =()=>{
        
     <nav className="ui raisedvery padded segment">
 
-    <a className="ui teal invrted segment,ui secondary segment">Vishnu's Image Search Engine!</a>
+    <a className="ui teal invrted segment,ui tertiary segment,ui tall stacked segment">Vishnu's Image Search Engine!</a>
     <div className="ui right floated header">
-        <button className="ui red basic button"><a href='/home'>Home</a></button>
-        <button className="ui purple basic button"><a href='/about'>About</a></button>
-        <button className="ui yellow basic button"><a href='/contact'>Contact</a></button>
+        <div className='ui inverted segment'>
+        <button className="ui inverted olive button"><a href='/home'>Home</a></button>
+        <button className="ui inverted purple button"><a href='/about'>About</a></button>
+        <button className="ui inverted yellow button"><a href='/contact'>Contact</a></button>
+        </div>
     </div>
     </nav>
     </div>
