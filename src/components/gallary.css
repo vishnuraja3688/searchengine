@@ -1,12 +1,21 @@
 .gallary{ 
-   float: left;
-   width: 30%;
-   height:230px;
-    padding:  6px 6px 6px 6px;
-    margin-top: 30px;
-    margin-left: 19px;
-    background-color: teal;
+  
+  
+    float: left;
+    width: 32.1%;
+    
+    margin-top: 10px;
+    margin-left: 10px;
     border-radius: 30px;
-    box-shadow: 10px 10px 18px #675e51,
-    -10px -10px 18px #675e51;
+    box-shadow: inset 3px 3px 10px #c2aea8,
+						inset -3px -3px 10px #c2aea8;
+}
+.gallary img{
+    width: 100%;
+    height: auto;
+    
+    border-radius: 30px;
+    padding: 12px 12px 9px 12px;
+   
+
 }
