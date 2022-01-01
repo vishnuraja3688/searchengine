@@ -1,0 +1,11 @@
+.gallary{ 
+   height: 250px;
+   width: 250px;
+    padding:  6px 6px 6px 6px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color: teal;
+    border-radius: 30px;
+    box-shadow: 10px 10px 18px #675e51,
+    -10px -10px 18px #675e51;
+}

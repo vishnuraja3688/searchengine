@@ -20,7 +20,7 @@ class Searchinput extends React.Component{
                             onChange={(event)=>this.setState({entry: event.target.value})}
                             value={this.state.entry} />
                         
-                            <i className="search icon"></i>
+                            <i className="heart icon"></i>
                         </div>
                     </div>
                 </form>
